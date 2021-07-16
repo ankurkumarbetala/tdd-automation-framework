@@ -1,0 +1,16 @@
+{
+  "SIT" : {
+    "Url" : "https://www.sit-google.com",
+    "TakeScreenshot" : "true",
+    "Browser" : "Chrome",
+    "GenerateLogs" : "true",
+    "LongWaitTime" : 10
+  },
+  "UAT" : {
+    "Url" : "https://www.uat-google.com",
+    "TakeScreenshot" : "false",
+    "Browser" : "Chrome",
+    "GenerateLogs" : "true",
+    "LongWaitTime" : 10
+  }
+}

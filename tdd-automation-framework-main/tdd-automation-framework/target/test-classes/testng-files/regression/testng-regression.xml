@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite" parallel="methods" thread-count="1"
+	verbose="4">
+	<listeners>
+		<listener class-name="com.framework.core.helpers.Hooks" />
+	</listeners>
+
+	<parameter name="Browser" value="CHROME" />
+	<test name="Tests">
+		<classes>
+			<class name="com.auto.tests.D365LoginTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,128 @@
+<AutomationShoppingApp>
+	<staging>
+		<HomePage>
+			<btn_SignIn>
+				<xpath>//a[contains(text(),'Sign in')]</xpath>
+			</btn_SignIn>
+			<lbl_CustomerName>
+				<xpath>//nav//span[text() = 'Ankur Betala']</xpath>
+			</lbl_CustomerName>
+			<tbx_EmailCreate>
+				<xpath>//input[@id ='email_create']</xpath>
+			</tbx_EmailCreate>
+			<btn_CreateAnAccount>
+				<xpath>//button[@id = 'SubmitCreate']</xpath>
+			</btn_CreateAnAccount>
+		</HomePage>
+		<LoginPage>
+			<tbx_EmailAddress>
+				<id>email</id>
+				<xpath>//input[@id = 'email']</xpath>
+			</tbx_EmailAddress>
+			<tbx_Password>
+				<xpath>//input[@id = 'passwd']</xpath>
+			</tbx_Password>
+			<btn_SignIn>
+				<xpath>//button[@id = 'SubmitLogin']</xpath>
+			</btn_SignIn>
+		</LoginPage>
+		<RegistrationPage>
+			<tbx_FirstName>
+				<xpath>//input[@id='customer_firstname']</xpath>
+			</tbx_FirstName>
+			<tbx_LastName>
+				<xpath>//input[@id='customer_lastname']</xpath>
+			</tbx_LastName>
+			<tbx_Email>
+				<xpath>//input[@id = 'email']</xpath>
+			</tbx_Email>
+			<tbx_Password>
+				<xpath>//input[@id = 'passwd']</xpath>
+			</tbx_Password>
+		</RegistrationPage>
+		<D365LoginPage>
+			<tbx_Username>
+				<xpath>//input[@type='email'] </xpath>
+			</tbx_Username>
+			<tbx_Password>
+				<xpath>//input[@name='passwd']</xpath>
+			</tbx_Password>
+			<btn_Submit>
+				<xpath>//input[@type='submit']</xpath>
+			</btn_Submit>
+			<btn_staySigninIn>
+				<xpath>//input[@value='Yes']</xpath>
+			</btn_staySigninIn>
+			<frame_iframeApps>
+				<xpath>//iframe[@id='AppLandingPage']</xpath>
+			</frame_iframeApps>
+			<lnk_Sasleshub>
+				<xpath>//a[starts-with(@aria-label,'Sales Hub')]</xpath>
+			</lnk_Sasleshub>
+		</D365LoginPage>
+	</staging>
+
+	<sit>
+		<HomePage>
+			<btn_SignIn>
+				<xpath>//a[contains(text(),'Sign in')]</xpath>
+			</btn_SignIn>
+			<lbl_CustomerName>
+				<xpath>//nav//span[text() = 'Ankur Betala']</xpath>
+			</lbl_CustomerName>
+			<tbx_EmailCreate>
+				<xpath>//input[@id ='email_create']</xpath>
+			</tbx_EmailCreate>
+			<btn_CreateAnAccount>
+				<xpath>//button[@id = 'SubmitCreate']</xpath>
+			</btn_CreateAnAccount>
+		</HomePage>
+		<LoginPage>
+			<tbx_EmailAddress>
+				<id>email</id>
+				<xpath>//input[@id = 'email']</xpath>
+			</tbx_EmailAddress>
+			<tbx_Password>
+				<xpath>//input[@id = 'passwd']</xpath>
+			</tbx_Password>
+			<btn_SignIn>
+				<xpath>//button[@id = 'SubmitLogin']</xpath>
+			</btn_SignIn>
+		</LoginPage>
+		<RegistrationPage>
+			<tbx_FirstName>
+				<xpath>//input[@id='customer_firstname']</xpath>
+			</tbx_FirstName>
+			<tbx_LastName>
+				<xpath>//input[@id='customer_lastname']</xpath>
+			</tbx_LastName>
+			<tbx_Email>
+				<xpath>//input[@id = 'email']</xpath>
+			</tbx_Email>
+			<tbx_Password>
+				<xpath>//input[@id = 'passwd']</xpath>
+			</tbx_Password>
+		</RegistrationPage>
+		<D365LoginPage>
+			<tbx_Username>
+				<xpath>//input[@type='email'] </xpath>
+			</tbx_Username>
+			<tbx_Password>
+				<xpath>//input[@name='passwd']</xpath>
+			</tbx_Password>
+			<btn_Submit>
+				<xpath>//input[@type='submit']</xpath>
+			</btn_Submit>
+			<btn_staySigninIn>
+				<xpath>//input[@value='Yes']</xpath>
+			</btn_staySigninIn>
+			<frame_iframeApps>
+				<xpath>//iframe[@id='AppLandingPage']</xpath>
+			</frame_iframeApps>
+			<lnk_Sasleshub>
+				<xpath>//a[starts-with(@aria-label,'Sales Hub')]</xpath>
+			</lnk_Sasleshub>
+		</D365LoginPage>
+
+	</sit>
+</AutomationShoppingApp>

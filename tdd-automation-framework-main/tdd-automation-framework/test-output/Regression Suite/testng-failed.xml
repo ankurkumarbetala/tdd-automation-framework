@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Regression Suite]" verbose="4">
+  <parameter name="Browser" value="CHROME"/>
+  <listeners>
+    <listener class-name="com.framework.core.helpers.Hooks"/>
+  </listeners>
+  <test parallel="methods" name="Tests(failed)">
+    <classes>
+      <class name="com.auto.tests.D365LoginTest">
+        <methods>
+          <include name="tearDownEnvironment"/>
+          <include name="loggingIntoD365"/>
+          <include name="initBrowser"/>
+          <include name="TearDownBrowser"/>
+          <include name="tearDownTests"/>
+          <include name="setUpTestConfigs"/>
+          <include name="setUpEnvironment"/>
+        </methods>
+      </class> <!-- com.auto.tests.D365LoginTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
